@@ -42,11 +42,11 @@ Install dependencies (we've already gathered them all into a `requirements.txt` 
 (venv) $ pip install -r requirements.txt
 ```
 
-## Setting Up The Database
+### Setting Up The Database
 
 Create a database named `touring_api_development`.
 
-## Creating a `.env` File
+### Creating a `.env` File
 
 Create a file named `.env`.
 
@@ -61,7 +61,7 @@ FLASK_ENV=development
 SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://postgres:postgres@localhost:5432/touring_api_development
 ```
 
-#### Create Models
+### Create Models
 
 Recall that we can update our models any time. These steps are to initialize our database:
 
@@ -71,7 +71,7 @@ Recall that we can update our models any time. These steps are to initialize our
 1. Run `flask db migrate -m ""`
 1. Run `flask db upgrade`
 
-#### Run `$ flask run` or `$ FLASK_ENV=development flask run`
+### Run `$ flask run` or `$ FLASK_ENV=development flask run`
 
 Check that your Flask server can run with `$ flask run`.
 
@@ -81,7 +81,7 @@ Alternatively, if our environment variable `FLASK_ENV` is not enabling developme
 
 **It is highly recommended to run the Flask servers in development mode**.
 
-#### Commit and Push
+### Commit and Push
 
 Commit and push your files to your repo, especially including the migration files!
 
