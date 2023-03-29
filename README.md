@@ -1,4 +1,4 @@
-# backend-big-island-adventures-backend
+# backend-big-island-adventures
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
