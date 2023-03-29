@@ -1,8 +1,8 @@
-# backend-big-island-adventures
+# backend-big-island-adventures-backend
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Back-End Layer Setup](#setup)
 
 ## General info
 Big Island Adventures is a web application built using Python, Flask, React, React-Bootstrap, React Router DOM, HTML, CSS, Javascript, and PostgreSQL. 
